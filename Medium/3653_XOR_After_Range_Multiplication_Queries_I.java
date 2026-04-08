@@ -1,5 +1,5 @@
-/*LeetCode Link
-https://leetcode.com/problems/xor-after-range-multiplication-queries-i/
+/* 
+LeetCode Link: https://leetcode.com/problems/xor-after-range-multiplication-queries-i/ 
 */
 class Solution {
     static final long M = 1000000007;
