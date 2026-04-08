@@ -1,3 +1,4 @@
+//Simulation approach
 class Solution {
     static final long M = 1000000007;
     public int xorAfterQueries(int[] nums, int[][] queries) {
