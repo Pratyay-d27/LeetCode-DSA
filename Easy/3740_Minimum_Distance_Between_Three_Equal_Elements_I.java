@@ -1,3 +1,6 @@
+/*
+LeetCode Link: https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/?envType=daily-question&envId=2026-04-10
+*/
 class Solution {
     public int minimumDistance(int[] nums) {
         int n = nums.length;
