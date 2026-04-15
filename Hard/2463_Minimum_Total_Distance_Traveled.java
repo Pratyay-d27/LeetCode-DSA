@@ -39,7 +39,7 @@ class Solution {
         int m = robot.size();
         int n = positions.size();
         long array[][] = new long[m][n];
-        //fill all places of array with -1
+        //fill all the places of array with -1
         for(int i = 0; i<m; i++)
         {
             for(int j = 0; j<n; j++)
