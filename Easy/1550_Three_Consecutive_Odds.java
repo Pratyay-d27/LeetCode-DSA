@@ -7,7 +7,7 @@ class Solution {
         int n = arr.length;
         int i, p;
         p=0;
-        for(i=0;i<n;i++)
+        for(i=0;i<n;i++) 
         {
             if(arr[i] % 2 == 1)
             {
