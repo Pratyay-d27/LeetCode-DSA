@@ -12,6 +12,6 @@ class Solution {
             sum += ((ch - '0')*counter);
             counter *= -1;
         }
-        return sum;
+        return sum; 
     }
 }
