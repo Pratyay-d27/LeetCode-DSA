@@ -6,6 +6,7 @@ class Solution {
     public int maxDistance(int[] nums1, int[] nums2) {
         int i = 0;//nums1
         int j = 0;//nums2
+        //result will find the maximum value, so initialize it to the lowest value
         int result = Integer.MIN_VALUE;
         while(i<nums1.length && j<nums2.length)
         {
