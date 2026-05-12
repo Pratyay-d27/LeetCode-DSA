@@ -20,7 +20,7 @@ class Solution {
                 str = '.' + str;
                 count = 0;
             }
-            else 
+            else  
             str = ch+str;
             n = n/10;
         }
