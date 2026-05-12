@@ -6,7 +6,7 @@ class Solution {
     {
         //base cases
         if(robot >= robots.size())
-        return 0;
+        return 0; 
         if(factory >= factories.size())
         return (long)Math.pow(10, 12);
 
