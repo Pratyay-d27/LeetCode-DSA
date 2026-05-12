@@ -8,7 +8,7 @@ class Solution {
         Arrays.sort(tasks, (a, b) -> Integer.compare((b[1]-b[0]), (a[1]-a[0])));
 
         //sorting done. Now binary search and isPossible function 
-        int l = 0, r = (int)Math.pow(10, 9), result = Integer.MAX_VALUE;
+        int l = 0, r = (int)Math.pow(10, 9), result = Integer.MAX_VALUE; 
         while(l<=r)
         {
             int mid = (l+r)/2;
