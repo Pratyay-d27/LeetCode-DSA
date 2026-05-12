@@ -6,7 +6,7 @@ class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int i = 0, j = 0;
         ArrayList<Integer> list = new ArrayList<>();
-        //i = nums1, j = nums2
+        //i = nums1; j = nums2
         while(i < nums1.length && j<nums2.length)
         {
             if(nums1[i] < nums2[j])
