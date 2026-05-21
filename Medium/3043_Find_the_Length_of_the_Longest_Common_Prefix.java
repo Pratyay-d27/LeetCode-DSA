@@ -4,7 +4,7 @@ LeetCode Link: https://leetcode.com/problems/find-the-length-of-the-longest-comm
 
 class Solution {
     public int longestCommonPrefix(int[] arr1, int[] arr2) {
-        HashSet<Integer> set1 = new HashSet<>(); 
+        HashSet<Integer> set1 = new HashSet<>(); //added hashset for storing all prefixes of arr1 array
         for(int ele: arr1)
         {
             while(ele>0)
