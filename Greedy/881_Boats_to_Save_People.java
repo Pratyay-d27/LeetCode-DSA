@@ -2,9 +2,9 @@
 LeetCode Link: https://leetcode.com/problems/boats-to-save-people/
 */
 
-class Solution {
+class Solution { 
     public int numRescueBoats(int[] people, int limit) {
-        Arrays.sort(people);
+        Arrays.sort(people); //sort array
         int count = 0;
         int i = 0, j = people.length-1;
         while(i<=j)
