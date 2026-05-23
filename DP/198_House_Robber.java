@@ -1,0 +1,14 @@
+class Solution {
+    public int rob(int[] nums) {
+        int t[] = new int[101];
+        t[0] = 0;
+        t[1] = nums[0];
+        for(int i = 2; i<=nums.length; i++)
+        {
+            int steal = nums[i-1] + t[i-2];
+            int skip = t[i-1];
+            t[i] = Math.max(steal, skip);
+        }
+        return t[nums.length];
+    }
+}
