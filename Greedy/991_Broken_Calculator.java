@@ -7,7 +7,7 @@ class Solution {
         int count;
         if(start == target)
         return 0;
-        if(satart > target)
+        if(start > target)
         count = start-target;
         else if(target % 2 == 0)
         count = solve(start, target/2) + 1;
