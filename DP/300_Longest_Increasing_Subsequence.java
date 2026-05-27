@@ -26,7 +26,7 @@ class Solution {
     }
 }
 
-//Bottom Up Soltuion
+//Bottom Up DP Solution
 class Solution {
     public int lengthOfLIS(int[] nums) {
         int n = nums.length;
