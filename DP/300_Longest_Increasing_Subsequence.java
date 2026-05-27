@@ -1,4 +1,4 @@
-//Recursion + Memoization (2D DP)
+//Recursion + Memoization with 2D DP
 class Solution {
     int t[][] = new int[2501][2501];
     public int lengthOfLIS(int[] nums) {
