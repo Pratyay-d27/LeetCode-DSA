@@ -1,7 +1,6 @@
 /*
 LeetCode Link: https://leetcode.com/problems/special-binary-string/
 */
-
 class Solution {
     public String makeLargestSpecial(String s) {
         if(s == "")
