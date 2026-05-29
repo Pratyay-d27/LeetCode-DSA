@@ -1,4 +1,4 @@
-//Brute Force Approach
+//Simple Brute Force Approach
 
 class Solution {
     public int minElement(int[] nums) {
