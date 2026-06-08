@@ -15,7 +15,7 @@ class Solution {
                 equal++;
             }
         }
-        for(int i = 1; i<=equal; i++)
+        for(int i = 0; i<equal; i++)
         {
             arr[index++] = pivot;
         }
