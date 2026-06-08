@@ -3,7 +3,8 @@ class Solution {
         int n = nums.length, index = 0, equal = 0;
         int arr[] = new int[n];
         for(int i = 0; i<n; i++)
-        {//all elements less than pivot 
+        {
+            //all elements less than pivot 
             if(nums[i] < pivot)
             {
                 arr[index++] = nums[i];
@@ -17,6 +18,7 @@ class Solution {
         }
         for(int i = 0; i<equal; i++)
         {
+            //elements greater then pivot 
             arr[index++] = pivot;
         }
         for(int i = 0; i<n; i++)
