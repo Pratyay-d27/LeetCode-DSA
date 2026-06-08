@@ -18,12 +18,12 @@ class Solution {
         }
         for(int i = 0; i<equal; i++)
         {
-            //elements greater then pivot 
+            //elements equal to pivot 
             arr[index++] = pivot;
         }
         for(int i = 0; i<n; i++)
         {
-            //elements greater then pivot 
+            //elements greater than pivot 
             if(nums[i] != 1000001)
             arr[index++] = nums[i];
         }
