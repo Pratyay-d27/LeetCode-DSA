@@ -23,6 +23,7 @@ class Solution {
         }
         for(int i = 0; i<n; i++)
         {
+            //elements greater then pivot 
             if(nums[i] != 1000001)
             arr[index++] = nums[i];
         }
