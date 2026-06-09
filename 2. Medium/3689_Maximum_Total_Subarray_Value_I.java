@@ -15,6 +15,7 @@ class Solution {
 }
 
 //Using sorting 
+//Time complexity - O(nlogn)
 class Solution {
     public long maxTotalValue(int[] nums, int k) {
         Arrays.sort(nums);
