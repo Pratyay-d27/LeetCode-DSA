@@ -12,3 +12,5 @@ class Solution {
         return (long) k * (max-min);
     }
 }
+
+//Using sorting 
