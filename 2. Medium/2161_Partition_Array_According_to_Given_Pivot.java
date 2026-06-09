@@ -16,14 +16,14 @@ class Solution {
                 equal++;
             }
         }
+        //elements equal to pivot
         for(int i = 0; i<equal; i++)
-        {
-            //elements equal to pivot 
+        { 
             arr[index++] = pivot;
         }
+        //elements greater than pivot
         for(int i = 0; i<n; i++)
-        {
-            //elements greater than pivot 
+        { 
             if(nums[i] != 1000001)
             arr[index++] = nums[i];
         }
