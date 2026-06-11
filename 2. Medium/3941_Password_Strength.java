@@ -4,7 +4,8 @@ class Solution {
         HashSet<Character> set = new HashSet<>();
         for(char ch: password.toCharArray())
         set.add(ch);
-        //claculate sterength
+        
+        //calculate sterength
         int str = 0;
         for(char ch: set)
         {
