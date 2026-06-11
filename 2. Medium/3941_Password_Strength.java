@@ -1,5 +1,6 @@
 class Solution {
     public int passwordStrength(String password) {
+        //creating HashSet
         HashSet<Character> set = new HashSet<>();
         for(char ch: password.toCharArray())
         set.add(ch);
