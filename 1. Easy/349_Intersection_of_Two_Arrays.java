@@ -10,7 +10,7 @@ class Solution {
             if(list.contains(ele))
             set.add(ele);
         }
-        int arr[] = new int[set.size()];
+        int arr[] = new int[set.size()]; //final array to be returned 
         int i = 0;
         for(int ele: set)
         {
