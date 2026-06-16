@@ -1,6 +1,7 @@
 /*
 LeetCode Link: https://leetcode.com/problems/minimum-total-distance-traveled/?envType=daily-question&envId=2026-04-14
 */
+
 class Solution {
     static long solve(int robot, int factory, List<Integer>robots, ArrayList<Integer>factories, long array[][])
     {
@@ -10,7 +11,7 @@ class Solution {
         if(factory >= factories.size())
         return (long)Math.pow(10, 12);
 
-        //memoize code 
+        //memoization code 
         if(array[robot][factory] != -1)
         return array[robot][factory];
 
