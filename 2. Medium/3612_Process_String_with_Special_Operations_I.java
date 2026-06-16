@@ -1,5 +1,6 @@
 class Solution {
     public String processStr(String s) {
+        //defining StringBuilder class object for the operations
         StringBuilder str = new StringBuilder();
         for(char ch: s.toCharArray())
         {
