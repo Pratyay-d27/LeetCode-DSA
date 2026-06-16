@@ -10,7 +10,8 @@ class Solution {
         solve(start, arr, visited);
         return check;
     }
-    static void solve(int index, int [] arr, boolean[] visited)
+    
+    static void solve(int index, int [] arr, boolean[] visited) //recursion
     {
         if(index >= arr.length || index < 0)
         return;
