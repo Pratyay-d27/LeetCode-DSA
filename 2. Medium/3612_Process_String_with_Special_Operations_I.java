@@ -1,3 +1,5 @@
+//Solution using StringBuilder + Simulation
+
 class Solution {
     public String processStr(String s) {
         //defining StringBuilder class object for the operations
