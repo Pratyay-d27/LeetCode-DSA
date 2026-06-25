@@ -1,6 +1,7 @@
 class Solution {
     public int[] leftRightDifference(int[] nums) {
         int n = nums.length, sum = 0, sum2 = 0;
+        //declaration of right and left arrays
         int left[] = new int[n];
         int right[] = new int[n];
         for(int i = 1; i<n; i++)
