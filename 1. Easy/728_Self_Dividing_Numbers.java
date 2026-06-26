@@ -10,7 +10,7 @@ class Solution {
         }
         return list;
     }
-    
+    //function to check if a number is self dividing or not
     boolean check(int n)
     {
         int key = n;
