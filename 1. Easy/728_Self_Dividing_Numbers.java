@@ -10,6 +10,7 @@ class Solution {
         }
         return list;
     }
+    
     boolean check(int n)
     {
         int key = n;
