@@ -3,7 +3,7 @@ class Solution {
         ArrayList<Integer> list = new ArrayList<>(); // arraylist for storing the self dividing numbers 
         for(int i = left; i<= right; i++)
         {
-            if(String.valueOf(i).indexOf('0') != -1)
+            if(String.valueOf(i).indexOf('0') != -1) //continue if any digit of the number is a 0
             continue;
             if(check(i))
             list.add(i);
