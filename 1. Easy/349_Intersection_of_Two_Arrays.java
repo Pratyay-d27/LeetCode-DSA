@@ -17,6 +17,6 @@ class Solution {
             arr[i] = ele;
             i++;
         }
-        return arr;
+        return arr; //returning final array
     }
 }
