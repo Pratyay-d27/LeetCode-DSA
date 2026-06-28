@@ -12,6 +12,6 @@ class Solution {
         }
         
         Arrays.sort(arr);
-        return arr[arr.length-1];
+        return arr[arr.length-1];//returning the largest element
     }
 }
