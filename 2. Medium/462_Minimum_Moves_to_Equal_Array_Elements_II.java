@@ -31,6 +31,7 @@ class Solution {
                 int key = nums[i];
                 count2 += Math.abs(key - mid);
             }
+            //return final answer
             return count2;
         }
     }
