@@ -17,6 +17,7 @@ LeetCode Link: https://leetcode.com/problems/balanced-binary-tree/
  *     }
  * }
  */
+
 class Solution {
     static int height(TreeNode root)
     {
