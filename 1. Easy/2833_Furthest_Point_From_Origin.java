@@ -14,6 +14,6 @@ class Solution {
             else
             space++;
         }
-       return Math.abs(left - right) + space;
+       return Math.abs(left - right) + space; //return absolute value 
     }
 }
