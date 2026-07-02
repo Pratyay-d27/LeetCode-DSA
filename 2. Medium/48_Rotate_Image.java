@@ -21,7 +21,7 @@ class Solution {
             reverse(matrix[i]);
         }
     }
-    static void reverse(int arr[])
+    static void reverse(int arr[]) //function to reverse a 1D array
     {
         int i = 0, j = arr.length-1;
         while(i<j)
