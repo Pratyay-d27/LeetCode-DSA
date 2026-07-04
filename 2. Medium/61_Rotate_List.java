@@ -17,7 +17,7 @@ class Solution {
         if(n<2)
         return head;
 
-        //rest of the code 
+        //rest of the code
         k = k % n;
         while( k > 0)
         {
