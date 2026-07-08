@@ -16,7 +16,7 @@ class Solution {
             else
             p=0;
             if (p ==3)
-            return true;
+            return true; //return directly
         }
         return false;
     }
