@@ -7,7 +7,7 @@ class Solution {
 
         //go forward
         do
-        {      
+        {       
             if(words[i].equals(target))
             min = Math.min(min, count);
             i = (i+1)%n;
