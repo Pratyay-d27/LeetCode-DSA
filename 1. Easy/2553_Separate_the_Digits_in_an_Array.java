@@ -9,7 +9,7 @@ class Solution {
         s += String.valueOf(ele);
         int n = s.length();
         int arr[] = new int[n];
-        int i = 0;
+        int i = 0; 
         for(char ch: s.toCharArray())
         {
             arr[i] = ch - '0';
