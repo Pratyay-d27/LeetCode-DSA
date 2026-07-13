@@ -8,7 +8,7 @@ class Solution {
         int min = Integer.MAX_VALUE;
         for(int ele: nums)
         min = Math.min(min, ele);
-        return min;
+        return min; 
     }
 }
 
