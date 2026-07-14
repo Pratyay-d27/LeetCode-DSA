@@ -27,7 +27,7 @@ class Solution {
         if (t[idx][first][second] != -1)
         return t[idx][first][second];
 
-        //
+        //recursion
         long skip = solve(nums, idx+1, first, second) %  MOD;
         long take1 = solve(nums, idx+1, gcd(first, nums[idx]), second) % MOD;
         long take2 = solve(nums, idx+1, first, gcd(second, nums[idx])) % MOD;
