@@ -23,6 +23,7 @@ class Solution {
             return 0;
         }
 
+        
         if (t[idx][first][second] != -1)
         return t[idx][first][second];
 
