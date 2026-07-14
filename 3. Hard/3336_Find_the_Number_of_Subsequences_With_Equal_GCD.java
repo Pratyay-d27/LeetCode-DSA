@@ -32,7 +32,7 @@ class Solution {
         long take1 = solve(nums, idx+1, gcd(first, nums[idx]), second) % MOD;
         long take2 = solve(nums, idx+1, first, gcd(second, nums[idx])) % MOD;
 
-        return t[idx][first][second] = (int)((skip + take1 + take2) % MOD);
+        return t[idx][first][second] = (int)((skip + take1 + take2) % MOD); //memoize 
     }
     int gcd(int x, int y) {
         if (x == 0) return y;
