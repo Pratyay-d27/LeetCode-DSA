@@ -35,7 +35,7 @@ class Solution {
         return t[idx][first][second] = (int)((skip + take1 + take2) % MOD); //memoize 
     }
     int gcd(int x, int y) { //function to calculate GCD
-        //edge cases
+        //edge cases 
         if (x == 0) return y;
         if (y == 0) return x;
         while (y != 0) {
