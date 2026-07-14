@@ -13,7 +13,7 @@ class Solution {
         int n = solve(nums, 0, 0, 0) % MOD;
         return n;
     }
-    int solve(int nums[], int idx, int first, int second)
+    int solve(int nums[], int idx, int first, int second) //
     {
         //base case 
         if(idx == nums.length)
