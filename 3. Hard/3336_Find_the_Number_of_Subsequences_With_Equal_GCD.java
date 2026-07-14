@@ -38,6 +38,8 @@ class Solution {
         //edge cases 
         if (x == 0) return y;
         if (y == 0) return x;
+
+        //GCD code
         while (y != 0) {
             int temp = y;
             y = x % y;
