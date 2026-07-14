@@ -1,6 +1,6 @@
 class Solution {
     int MOD = 1000000007;
-    int t[][][];
+    int t[][][]; //declaring memoization array
     public int subsequencePairCount(int[] nums) {
         t = new int[nums.length + 2][203][203];
         for(int i = 0; i<nums.length; i++)
