@@ -8,7 +8,7 @@ class Solution {
             for(int j = 0; j<201; j++)
             {
                 Arrays.fill(t[i][j], -1);
-            }
+            } 
         }
         int n = solve(nums, 0, 0, 0) % MOD;
         return n;
