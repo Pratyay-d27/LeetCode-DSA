@@ -10,7 +10,7 @@ class Solution {
         for(int i = 1; i<=n; i++)
         {
             if(freq[i] == 0)
-            {
+            {//if i is onot in banned array then only add it to sum
                 sum += i;
                 if(sum <= maxSum)
                 count++;
