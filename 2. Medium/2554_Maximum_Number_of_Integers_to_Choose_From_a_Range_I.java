@@ -1,6 +1,6 @@
 class Solution {
     public int maxCount(int[] banned, int n, int maxSum) {
-        int freq[] = new int[10002]; //declaring frequency array
+        int freq[] = new int[10002]; //declaring frequency array 
         for(int i = 0; i<banned.length; i++)
         {
             freq[banned[i]]++;
