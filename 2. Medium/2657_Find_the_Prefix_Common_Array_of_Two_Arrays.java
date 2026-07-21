@@ -2,7 +2,7 @@
 LeetCode Link: https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/?envType=daily-question&envId=2026-05-20
 */
 
-class Solution {
+class Solution { 
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
         int arr[] = new int[A.length];
         ArrayList<Integer> lista = new ArrayList<>();
