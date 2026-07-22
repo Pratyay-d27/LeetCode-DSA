@@ -38,7 +38,7 @@ class Solution {
 }
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//Optimal Solution
+//Optimal Solution using HashMap
 class Solution {
     public int minimumDistance(int[] nums) {
         HashMap<Integer, ArrayList<Integer>> map = new HashMap<>();
