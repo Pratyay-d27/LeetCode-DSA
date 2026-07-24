@@ -7,6 +7,6 @@ class Solution {
         ArrayList<Integer> list = new ArrayList<>();
         for(int ele: nums)
         list.add(ele);
-        return list.indexOf(target);
+        return list.indexOf(target); 
     }
 }
