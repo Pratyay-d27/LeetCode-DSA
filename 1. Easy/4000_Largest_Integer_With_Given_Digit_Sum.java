@@ -17,7 +17,7 @@ class Solution {
         return -1;
     }
 
-    
+    //function 
     int sum(int n)
     {
         int ans = 0;
