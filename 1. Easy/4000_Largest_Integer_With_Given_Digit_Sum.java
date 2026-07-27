@@ -16,6 +16,8 @@ class Solution {
         }
         return -1;
     }
+
+    
     int sum(int n)
     {
         int ans = 0;
