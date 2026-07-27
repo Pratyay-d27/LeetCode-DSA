@@ -17,7 +17,7 @@ class Solution {
         return -1;
     }
 
-    //function to calculate sum of digits 
+    //function to calculate sum of digits of 
     int sum(int n)
     {
         int ans = 0;
