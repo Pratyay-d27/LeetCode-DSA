@@ -1,7 +1,7 @@
 /*
 LeetCode Link: https://leetcode.com/problems/balanced-binary-tree/
 */
-
+//preliminary information
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
