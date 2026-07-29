@@ -23,7 +23,7 @@ class Solution {
             }
         }
         
-        //manually converting list to array and 
+        //manually converting list to array and returning the array
         String ans[] = new String[list.size()];
         for(int k = 0; k<list.size(); k++)
         {
