@@ -6,7 +6,7 @@ class Solution {
         if(arr.length <= 2)
         return new String[0];
 
-        //
+        //rest of 
         ArrayList<String> list = new ArrayList<>();
         int i = 0, j = 1;
         while(i<arr.length && j<arr.length)
