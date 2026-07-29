@@ -1,6 +1,6 @@
 class Solution {
     public String[] findOcurrences(String text, String first, String second) {
-        String arr[] = text.split(" "); //Convert to String array by splitting 
+        String arr[] = text.split(" "); //Convert to String array by splitting using 
         
         //base case 
         if(arr.length <= 2)
