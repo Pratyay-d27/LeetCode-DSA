@@ -22,6 +22,7 @@ class Solution {
                 j++;
             }
         }
+        
         String ans[] = new String[list.size()];
         for(int k = 0; k<list.size(); k++)
         {
