@@ -30,6 +30,6 @@ class Solution {
         {
             ans[k] = list.get(k);
         }
-        return ans;
+        return ans; //return the final array
     }
 }
