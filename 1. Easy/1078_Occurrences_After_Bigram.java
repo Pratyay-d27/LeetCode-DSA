@@ -28,7 +28,7 @@ class Solution {
         String ans[] = new String[list.size()];
         for(int k = 0; k<list.size(); k++)
         {
-            ans[k] = list.get(k);
+            ans[k] = list.get(k); //copying list elements to array
         }
         return ans; //return the final array
     }
