@@ -17,6 +17,7 @@ class Solution {
         if(i >= values.length)
         return 0;
 
+        //memoization check
         if(dp[i] != Integer.MIN_VALUE)
         return dp[i];
 
