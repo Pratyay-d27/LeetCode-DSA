@@ -1,6 +1,6 @@
 // recusrion + memoization code 
 class Solution {
-    int dp[] = new int[50002];
+    int dp[] = new int[50002]; //memoization array declared globally 
     public String stoneGameIII(int[] stoneValue) {
         Arrays.fill(dp, Integer.MIN_VALUE);
         int res = solve(0, stoneValue);
