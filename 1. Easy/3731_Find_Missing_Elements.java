@@ -1,7 +1,7 @@
 class Solution {
     public List<Integer> findMissingElements(int[] nums) {
         int max = Integer.MIN_VALUE, min = Integer.MAX_VALUE;
-        boolean pres[] = new boolean[102];
+        boolean pres[] = new boolean[102]; //array to denote that element is there in array or not 
         for(int ele: nums) // to find the max and min values of the array 
         {
             pres[ele] = true;
