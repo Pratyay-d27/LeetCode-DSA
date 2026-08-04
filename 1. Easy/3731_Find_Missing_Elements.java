@@ -8,7 +8,7 @@ class Solution {
             max = Math.max(ele, max);
             min = Math.min(ele, min);
         }
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>(); //final listto be returned as answer
         for(int i = min; i<= max; i++)
         {
             if(pres[i] == false)
