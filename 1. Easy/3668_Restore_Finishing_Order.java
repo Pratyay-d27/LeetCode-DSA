@@ -1,7 +1,7 @@
 class Solution {
     public int[] recoverOrder(int[] order, int[] friends) {
         int n = order.length;
-        int freq[] = new int[101]; // declaring frequency array 
+        int freq[] = new int[101]; //declaring frequency array 
         for(int ele: friends)
         {
             freq[ele]++;
