@@ -15,6 +15,6 @@ class Solution {
             }
             count = count + str[i] + " ";
         }
-        return count.trim();
+        return count.trim(); //trim and return the final answer
     }
 }
