@@ -6,7 +6,7 @@ class Solution {
 
         ///rest of the code 
         int preSum = 0;
-        int freq[] = new int[51];
+        int freq[] = new int[51]; //frequency array used instead of 
         if(nums[1] - nums[0] == 1)
         {
             preSum += nums[0];
