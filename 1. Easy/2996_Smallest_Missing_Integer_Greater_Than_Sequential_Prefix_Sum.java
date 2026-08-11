@@ -5,7 +5,7 @@ class Solution {
         return nums[0]+1;
 
         ///rest of the code 
-        int preSum = 0;
+        int preSum = 0; //stores the longest prefix sum
         int freq[] = new int[51]; //frequency array used instead of hashset
         if(nums[1] - nums[0] == 1)
         {
