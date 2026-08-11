@@ -4,6 +4,7 @@ class Solution {
         if(nums.length == 1)
         return nums[0]+1;
 
+        ///rest of the code 
         int preSum = 0;
         int freq[] = new int[51];
         if(nums[1] - nums[0] == 1)
