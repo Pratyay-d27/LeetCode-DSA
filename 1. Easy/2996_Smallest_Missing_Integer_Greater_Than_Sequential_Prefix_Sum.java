@@ -1,6 +1,6 @@
 class Solution {
     public int missingInteger(int[] nums) {
-        //base case 
+        //base case  
         if(nums.length == 1)
         return nums[0]+1;
 
