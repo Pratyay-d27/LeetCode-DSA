@@ -1,6 +1,6 @@
 class Solution {
     public int maximumLengthSubstring(String s) {
-        int freq[] = new int[26];
+        int freq[] = new int[26]; //for keeping track of the frequency of each character 
         int i = 0, j = 0, max = 0;
         while(j<s.length())
         {
