@@ -1,7 +1,7 @@
 class Solution {
     public int maximumLengthSubstring(String s) {
         int freq[] = new int[26]; //for keeping track of the frequency of each character 
-        //using freq array here instead of hashmap to improve the time complexity
+        //using freq array here instead of hashmap to improve the time complexity 
         int i = 0, j = 0, max = 0;
         while(j<s.length())
         {
