@@ -14,7 +14,7 @@ class Solution {
             while(freq[key] > 2)
             {
                 freq[s.charAt(i) - 'a']--;
-                i++;
+                i++; //shrinking the window 
             }
 
             j++;
