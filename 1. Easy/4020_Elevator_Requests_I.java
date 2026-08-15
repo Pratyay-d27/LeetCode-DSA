@@ -5,7 +5,7 @@ class Solution {
             {
                 if(present == toFloor) //if present floor same as the intended floor to go
                     time = time;
-                else if(present != toFloor)
+                else if(present != toFloor) //if present floor not same as the intended floor to go
                 {
                     time += Math.abs(present - toFloor);
                     present = toFloor;
