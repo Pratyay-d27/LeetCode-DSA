@@ -11,6 +11,6 @@ class Solution {
                     present = toFloor;
                 }
             }
-        return time;
+        return time; //return total required time 
     }
 }
