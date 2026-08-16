@@ -5,7 +5,7 @@ class Solution {
         {
             freq[ch - 'a']++;
         }
-        int i = 1;
+        int i = 1; 
         ArrayList<Character> list = new ArrayList<>();
         while(i <= 26)
         {
