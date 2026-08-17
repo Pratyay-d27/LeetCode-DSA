@@ -12,7 +12,7 @@ class Solution {
         while(l<=r)
         {
             int mid = (l+r)/2;
-            if(isPossible(tasks, mid))
+            if(isPossible(tasks, mid)) 
             {
                 result = Math.min(result, mid);
                 r = mid-1;
