@@ -37,7 +37,6 @@ class Solution {
             {
                 count++;
                 max = 13;
-
             }
 
             if(max == 0)
