@@ -44,7 +44,6 @@ class Solution {
                 if((list.contains(4) || list.contains(5) || list.contains(6) || list.contains(7)) == false )
                 {
                     count++;
-
                 }
             }
         }
