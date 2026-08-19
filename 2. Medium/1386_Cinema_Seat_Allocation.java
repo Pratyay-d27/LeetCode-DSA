@@ -31,7 +31,6 @@ class Solution {
             {
                 count++;
                 max = 1;
-                //System.out.println(i + " in 1");
             }
 
             if((list.contains(6) || list.contains(7) || list.contains(8) || list.contains(9)) == false )
