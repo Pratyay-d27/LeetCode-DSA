@@ -1,6 +1,6 @@
 class Solution {
     public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
-        HashMap<Integer, ArrayList<Integer>>map = new HashMap<>();
+        HashMap<Integer, ArrayList<Integer>>map = new HashMap<>(); //declaring map
         for(int i = 0; i<reservedSeats.length; i++)
         {
             if(map.containsKey(reservedSeats[i][0]) == false)
