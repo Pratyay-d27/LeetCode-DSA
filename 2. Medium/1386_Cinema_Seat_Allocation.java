@@ -37,7 +37,7 @@ class Solution {
             {
                 count++;
                 max = 13;
-                //System.out.println(i + " in 3");
+
             }
 
             if(max == 0)
