@@ -47,6 +47,6 @@ class Solution {
                 }
             }
         }
-        return count + ((n - map.size()) * 2);
+        return count + ((n - map.size()) * 2); //add the empty rows max group seatings
     }
 }
