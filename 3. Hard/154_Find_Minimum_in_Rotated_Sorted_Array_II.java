@@ -6,7 +6,7 @@ class Solution {
     public int findMin(int[] nums) {
         TreeSet<Integer> set = new TreeSet<>();
         for(int ele: nums)
-        set.add(ele);
+        set.add(ele); 
         ArrayList<Integer> list = new ArrayList<>(set);
         return list.get(0);
     }
