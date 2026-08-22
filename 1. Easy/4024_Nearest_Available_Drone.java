@@ -1,6 +1,6 @@
 class Solution {
     public int nearestDrone(int[][] drones, int[] target) {
-        int index = -1;
+        int index = -1; //for storing 
         int min = Integer.MAX_VALUE;
         for(int i = 0; i<drones.length; i++)
         {
