@@ -15,6 +15,6 @@ class Solution {
                 }
             }
         }
-        return index;
+        return index; //return min index
     }
 }
