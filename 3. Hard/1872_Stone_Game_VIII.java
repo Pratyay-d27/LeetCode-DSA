@@ -1,5 +1,5 @@
 class Solution {
-    int dp[];
+    int dp[]; // memoization array
     public int stoneGameVIII(int[] stones) {
         dp = new int[stones.length+2];
         Arrays.fill(dp, 10005);
