@@ -13,7 +13,7 @@ class Solution {
         if(i == stones.length-1)
         return stones[stones.length-1];
 
-        if(dp[i] != 10005)
+        if(dp[i] != 10005) // memoization 
         return dp[i];
 
         int take = stones[i] - solve(i+1, stones);
