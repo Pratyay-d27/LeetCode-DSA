@@ -4,7 +4,7 @@ class Solution {
         dp = new int[stones.length+2];
         Arrays.fill(dp, 10005);
         
-        for(int i = 1; i<stones.length; i++) //convert stones array 
+        for(int i = 1; i<stones.length; i++) //convert stones array to prefix sum 
         stones[i] += stones[i-1];
 
         return solve(1, stones);
