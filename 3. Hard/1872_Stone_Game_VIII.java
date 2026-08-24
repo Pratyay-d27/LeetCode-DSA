@@ -3,7 +3,8 @@ class Solution {
     public int stoneGameVIII(int[] stones) {
         dp = new int[stones.length+2];
         Arrays.fill(dp, 10005);
-        for(int i = 1; i<stones.length; i++)
+        
+        for(int i = 1; i<stones.length; i++) //convert stones array 
         stones[i] += stones[i-1];
 
         return solve(1, stones);
