@@ -14,7 +14,7 @@ class Solution {
         return stones[stones.length-1];
 
         if(dp[i] != 10005) // memoization check
-        return dp[i]; //end prematurely if memoization 
+        return dp[i]; //end prematurely if memoization check is true
 
         int take = stones[i] - solve(i+1, stones);
         int skip = solve(i+1, stones);
