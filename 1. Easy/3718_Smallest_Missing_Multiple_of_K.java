@@ -12,7 +12,7 @@ class Solution {
             if(freq[key] == 0)
             return key;
         }
-        // this 
+        // this is when 
         int num = k;
         while(num <= 100)
             num += k;
