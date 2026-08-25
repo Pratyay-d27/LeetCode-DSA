@@ -1,6 +1,6 @@
 class Solution {
     public int missingMultiple(int[] nums, int k) {
-        int freq[] = new int[102];
+        int freq[] = new int[102]; //declaring 
         for(int ele: nums)
         freq[ele] = 1;
 
