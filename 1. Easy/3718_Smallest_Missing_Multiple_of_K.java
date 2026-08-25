@@ -12,7 +12,7 @@ class Solution {
             if(freq[key] == 0)
             return key;
         }
-        // this is when 
+        // this is when no smallest multiple of k exists within 
         int num = k;
         while(num <= 100)
             num += k;
