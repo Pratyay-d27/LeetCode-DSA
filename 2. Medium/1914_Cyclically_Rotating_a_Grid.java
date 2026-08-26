@@ -4,7 +4,7 @@ LeetCode Link: https://leetcode.com/problems/cyclically-rotating-a-grid/?envType
 
 class Solution { 
     public int[][] rotateGrid(int[][] grid, int k) {
-        int r = grid.length, c = grid[0].length; //variables 
+        int r = grid.length, c = grid[0].length; //variables size of 
         int left = 0, right = c - 1, top = 0, bottom = r - 1, count = 0;
         while (count < (r * c)) {
             int keep = count;
