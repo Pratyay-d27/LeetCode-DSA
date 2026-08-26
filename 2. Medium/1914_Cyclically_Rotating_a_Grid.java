@@ -2,7 +2,7 @@
 LeetCode Link: https://leetcode.com/problems/cyclically-rotating-a-grid/?envType=daily-question&envId=2026-05-09
 */
 
-class Solution {
+class Solution { 
     public int[][] rotateGrid(int[][] grid, int k) {
         int r = grid.length, c = grid[0].length;
         int left = 0, right = c - 1, top = 0, bottom = r - 1, count = 0;
