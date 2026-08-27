@@ -8,6 +8,6 @@ class Solution {
         for(int ele: nums)
         set.add(ele); 
         ArrayList<Integer> list = new ArrayList<>(set);
-        return list.get(0);
+        return list.get(0); //return 
     }
 }
