@@ -1,9 +1,9 @@
 class Solution {
     int prefixSum[];
-    int dp[][]; //memoization array 
+    int dp[][]; // memoization array 
     public int stoneGameV(int[] stoneValue) {
         int n = stoneValue.length;
-        prefixSum = new int[n];
+        prefixSum = new int[n]; //
         dp = new int[n+1][n+1];
         
         //base case 
