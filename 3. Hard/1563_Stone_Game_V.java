@@ -1,6 +1,6 @@
 class Solution {
     int prefixSum[];
-    int dp[][];
+    int dp[][]; //memoization
     public int stoneGameV(int[] stoneValue) {
         int n = stoneValue.length;
         prefixSum = new int[n];
