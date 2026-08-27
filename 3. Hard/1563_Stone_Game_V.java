@@ -3,7 +3,7 @@ class Solution {
     int dp[][]; // memoization array 
     public int stoneGameV(int[] stoneValue) {
         int n = stoneValue.length;
-        prefixSum = new int[n]; // for 
+        prefixSum = new int[n]; // for storing
         dp = new int[n+1][n+1];
         
         //base case 
