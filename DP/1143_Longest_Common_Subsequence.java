@@ -1,5 +1,5 @@
 class Solution {
-    int dp[][] = new int[1002][1002];
+    int dp[][] = new int[1002][1002]; //memoization 
     public int longestCommonSubsequence(String text1, String text2) {
         for(int i = 0; i<1002; i++)
         Arrays.fill(dp[i], -1);
