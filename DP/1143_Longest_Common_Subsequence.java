@@ -10,7 +10,7 @@ class Solution {
         if(i >= str1.length() || j >= str2.length())
         return 0;
 
-        if(dp[i][j] != -1) // memoization 
+        if(dp[i][j] != -1) // memoization check
         return dp[i][j];
 
         if(str1.charAt(i) == str2.charAt(j))
