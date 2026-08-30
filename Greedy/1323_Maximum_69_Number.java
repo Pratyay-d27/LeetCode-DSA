@@ -1,5 +1,5 @@
 // Solution without converting to String 
-class Solution {
+class Solution { 
     public int maximum69Number (int num) {
         if(num == 9 || num == 99 || num == 999 || num == 9999)
         return num;
