@@ -1,9 +1,11 @@
 // Solution without converting to String 
+
 class Solution { 
     public int maximum69Number (int num) {
         if(num == 9 || num == 99 || num == 999 || num == 9999)
         return num;
 
+        //Using 
         ArrayList<Integer> list = new ArrayList<>();
         while(num > 0)
         {
