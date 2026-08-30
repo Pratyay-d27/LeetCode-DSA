@@ -1,4 +1,4 @@
-// Solution without converting 
+// Solution without converting to 
 class Solution {
     public int maximum69Number (int num) {
         if(num == 9 || num == 99 || num == 999 || num == 9999)
