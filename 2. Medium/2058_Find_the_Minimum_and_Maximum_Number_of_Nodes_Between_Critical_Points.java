@@ -11,7 +11,7 @@
 
 class Solution {
     public int[] nodesBetweenCriticalPoints(ListNode head) {
-        ArrayList<Integer> list = new ArrayList<>(); //declaring 
+        ArrayList<Integer> list = new ArrayList<>(); //declaring Arraylist
         ListNode ptr = head;
         while(ptr != null)
         {
