@@ -1,4 +1,4 @@
-// Greedy Approach with in-place solution
+// Greedy Approach with in-place solution 
 class Solution {
     public int maximumBags(int[] capacity, int[] rocks, int additionalRocks) {
         for(int i = 0; i<rocks.length; i++)
