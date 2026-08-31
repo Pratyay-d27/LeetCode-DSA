@@ -8,6 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
 class Solution {
     public int[] nodesBetweenCriticalPoints(ListNode head) {
         ArrayList<Integer> list = new ArrayList<>();
