@@ -1,4 +1,4 @@
-//Greedy solution 
+// Greedy solution 
 
 class Solution {
     public int minimumRounds(int[] tasks) {
