@@ -1,6 +1,6 @@
 class Solution {
     public int minimumRounds(int[] tasks) {
-        HashMap<Integer, Integer> map = new HashMap<>(); //declaring map
+        HashMap<Integer, Integer> map = new HashMap<>(); //declaring map for frequency count
         for(int ele: tasks)
         {
             if(map.containsKey(ele) == false)
