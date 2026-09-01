@@ -1,3 +1,5 @@
+//Greedy solution 
+
 class Solution {
     public int minimumRounds(int[] tasks) {
         HashMap<Integer, Integer> map = new HashMap<>(); //declaring map for frequency count
