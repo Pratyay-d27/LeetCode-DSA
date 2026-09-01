@@ -12,7 +12,7 @@ class Solution {
         }
 
         int rounds = 0;
-        for(var ele: map.entrySet()) // traversing the 
+        for(var ele: map.entrySet()) // traversing the m
         {
             int value = ele.getValue();
 
