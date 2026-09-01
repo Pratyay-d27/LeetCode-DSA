@@ -16,6 +16,7 @@ class Solution {
         {
             int value = ele.getValue();
 
+            //base case 
             if(value == 1)
             return -1;
 
