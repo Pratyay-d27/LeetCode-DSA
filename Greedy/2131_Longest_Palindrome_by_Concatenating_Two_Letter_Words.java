@@ -1,3 +1,5 @@
+//Greedy Solution 
+
 class Solution {
     public int longestPalindrome(String[] words) {
         int count = 0;
