@@ -1,3 +1,4 @@
+///Bottom 
 class Solution {
     public int rob(int[] nums) {
         int t[] = new int[101];
