@@ -1,5 +1,5 @@
 class Solution {
-    int dp[][] = new int[1001][1001];
+    int dp[][] = new int[1001][1001]; //memoization array
     public String longestPalindrome(String s) {
         for(int i = 0; i<1001; i++)
         Arrays.fill(dp[i], -1);
