@@ -27,7 +27,7 @@ class Solution {
         if(i>j)
         return 1;
 
-        if(dp[i][j] != -1)
+        if(dp[i][j] != -1) //
         return dp[i][j];
 
         if(str.charAt(i) == str.charAt(j))
