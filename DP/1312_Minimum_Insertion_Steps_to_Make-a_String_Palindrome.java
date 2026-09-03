@@ -1,5 +1,5 @@
 class Solution {
-    int dp[][] = new int[502][502]; //memoization array
+    int dp[][] = new int[502][502]; //memoization array 
     public int minInsertions(String s) {
         for(int i = 0; i<502; i++)
         Arrays.fill(dp[i], -1);
