@@ -2,7 +2,7 @@
 LeetCode Link: https://leetcode.com/problems/smallest-stable-index-i/
 */
 
-//Brute Force 
+//Brute Force Approach
 class Solution {
     public int firstStableIndex(int[] nums, int k) {
         int n = nums.length;
