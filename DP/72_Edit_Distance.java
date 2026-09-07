@@ -1,4 +1,4 @@
-//Dynamic Programming Solu
+//Dynamic Programming Solut
 class Solution {
     int dp[][] = new int[502][502];
     public int minDistance(String word1, String word2) {
