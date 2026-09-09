@@ -1,4 +1,5 @@
 // Brute Force and optimal solution 
+
 class Solution {
     public long countCommas(long n) {
         if(n <= 999)
