@@ -1,6 +1,6 @@
 class Solution {
     public int totalNumbers(int[] digits) {
-        HashSet<Integer> set = new HashSet<>();
+        HashSet<Integer> set = new HashSet<>(); // 
         int n = digits.length;
         int count = 0;
         for(int i = 0; i<n; i++)
