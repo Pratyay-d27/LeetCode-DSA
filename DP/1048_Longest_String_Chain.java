@@ -1,4 +1,4 @@
-// Dynamic
+// Dynamic programming
 class Solution {
     int t[][] = new int[1001][1001];
     public int longestStrChain(String[] words) {
