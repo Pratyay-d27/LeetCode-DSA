@@ -1,4 +1,4 @@
-// Dynamic 
+// Dynamic Programming solution 
 class Solution {
     public int fib(int n) {
         int dp[] = new int[31];
