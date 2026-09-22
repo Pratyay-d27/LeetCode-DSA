@@ -1,4 +1,4 @@
-// Here HashMap increases time complexity as the input constraints are small so NOT using 
+// Here HashMap increases time complexity as the input constraints are small so NOT using HashMap
 class Solution {
     public int countSpecialIntegers(int[] nums) {
         int check[] = new int[101];
