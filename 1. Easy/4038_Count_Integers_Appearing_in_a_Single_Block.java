@@ -1,4 +1,4 @@
-// Here 
+// Here HashMap  
 class Solution {
     public int countSpecialIntegers(int[] nums) {
         int check[] = new int[101];
