@@ -37,7 +37,7 @@ class Solution {
 
         for(String ele: list)
         if(ele.length() == minLength)
-        return ele; //return the string of smallest 
+        return ele; //return the string of smallest length
 
         return "";
     }
