@@ -1,4 +1,4 @@
-//Brute FOrce 
+//Brute Force 
 
 class Solution {
     public String shortestCompletingWord(String licensePlate, String[] words) {
