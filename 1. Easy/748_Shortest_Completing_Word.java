@@ -2,7 +2,7 @@
 
 class Solution {
     public String shortestCompletingWord(String licensePlate, String[] words) {
-        ArrayList<String> list = new ArrayList<>(); //Declaring ArrayList to store the strings satisfying the question 
+        ArrayList<String> list = new ArrayList<>(); //Declaring ArrayList to store the strings satisfying the question's 
         int minLength = Integer.MAX_VALUE;
 
         String str = licensePlate.toLowerCase();
