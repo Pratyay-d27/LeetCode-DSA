@@ -15,7 +15,7 @@ class Solution {
     }
 }
 
-//Method 2 -- with normal stack (integer) data structure 
+//Method 2 -- with normal stack (integer) data structure  
 class Solution {
     public int maxDepth(String s) {
         int max = -1;
