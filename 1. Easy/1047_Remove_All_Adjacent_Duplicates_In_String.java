@@ -7,7 +7,7 @@ class Solution {
         //base case
         if(s.length() == 1)
         return s;
-        //rest of t code 
+        //rest of th code 
         char ch[] = s.toCharArray();
         ArrayList<Character> list = new ArrayList<>();
         for(char ele: ch)
