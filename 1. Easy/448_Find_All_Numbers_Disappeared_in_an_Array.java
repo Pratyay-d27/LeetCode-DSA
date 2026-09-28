@@ -1,4 +1,4 @@
-//Brute force + optimal
+//Brute force + optimal 
 class Solution {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         int n = nums.length;
