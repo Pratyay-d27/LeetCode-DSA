@@ -1,6 +1,7 @@
 /*
 LeetCode Link: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/
 */
+
 class Solution {
     public String removeDuplicates(String s) {
         //base case
