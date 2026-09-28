@@ -13,3 +13,5 @@ class Solution {
         return max;
     }
 }
+
+//Method 2 -- with normal stack (integer) data structure 
