@@ -1,4 +1,4 @@
-//Method 1 - using deque as stack data structure  
+//Method 1 -- using deque as stack data structure  
 class Solution {
     public int maxDepth(String s) {
         int max = 0;
