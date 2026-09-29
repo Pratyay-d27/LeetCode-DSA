@@ -1,3 +1,5 @@
+//Dynamic 
+
 class Solution {
     int dp[][][];
     public boolean hasValidPath(char[][] grid) {
