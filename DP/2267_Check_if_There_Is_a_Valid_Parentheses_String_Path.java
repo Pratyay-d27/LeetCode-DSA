@@ -1,4 +1,4 @@
-//Dynamic 
+//Dynamic Programming 
 
 class Solution {
     int dp[][][];
