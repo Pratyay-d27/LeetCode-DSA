@@ -1,7 +1,7 @@
 // Dynamic Programming Solution  
  
 class Solution {
-    int dp[][][]; //memoization 3D matrix
+    int dp[][][]; //memoization 3D matrix 
     public boolean hasValidPath(char[][] grid) {
         int m = grid.length, n = grid[0].length;
         dp = new int[m+1][n+1][m+n+1];
