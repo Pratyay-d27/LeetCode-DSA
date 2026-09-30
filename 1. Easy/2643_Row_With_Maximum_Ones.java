@@ -1,4 +1,4 @@
-// Brute Force Solutio
+// Brute Force Solution
 
 class Solution {
     public int[] rowAndMaximumOnes(int[][] mat) {
