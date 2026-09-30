@@ -1,3 +1,5 @@
+// Brute Force 
+
 class Solution {
     public int[] rowAndMaximumOnes(int[][] mat) {
         int m = mat.length, n = mat[0].length;
