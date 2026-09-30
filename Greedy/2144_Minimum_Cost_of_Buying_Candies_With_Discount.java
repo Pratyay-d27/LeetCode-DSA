@@ -1,3 +1,4 @@
+// Greedy Approach 
 
 class Solution {
     public int minimumCost(int[] cost) {
