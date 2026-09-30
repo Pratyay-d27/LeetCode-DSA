@@ -13,7 +13,7 @@ class Solution {
                 d++;
                 result[i] = (d%2 == 0)?0:1;
             }
-            else // for ')' bracket
+            else // for ')' bracket 
             {
                 result[i] = (d%2 == 0)?0:1;
                 d--;
