@@ -7,6 +7,7 @@ class Solution {
         int d = 0;
         for(int i = 0; i<n; i++)
         {
+            // for '(' bracket
             if(seq.charAt(i) == '(')
             {
                 d++;
