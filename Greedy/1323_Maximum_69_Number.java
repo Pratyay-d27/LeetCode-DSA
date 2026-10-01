@@ -1,4 +1,4 @@
-// Solution without converting to String. Greedy Approach
+// Solution without converting to String. Greedy Approach 
 
 class Solution { 
     public int maximum69Number (int num) {
