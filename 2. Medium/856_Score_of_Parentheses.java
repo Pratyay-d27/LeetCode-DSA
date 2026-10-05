@@ -1,4 +1,4 @@
-// Using
+// Using stack
 
 class Solution {
     public int scoreOfParentheses(String s) {
