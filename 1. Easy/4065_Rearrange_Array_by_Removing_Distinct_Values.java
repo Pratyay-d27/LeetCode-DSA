@@ -1,4 +1,4 @@
-// Brute force solu
+// Brute force solut
 class Solution {
     public int[] rearrangeArray(int[] nums) {
         int freq[] = new int[101];
