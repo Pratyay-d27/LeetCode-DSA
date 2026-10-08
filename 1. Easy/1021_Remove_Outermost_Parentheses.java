@@ -1,4 +1,4 @@
-// Brute force s
+// Brute force so
 class Solution {
     public String removeOuterParentheses(String s) {
         int count = 0;
