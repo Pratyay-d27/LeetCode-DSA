@@ -18,6 +18,7 @@ class Solution {
                 str = str + ele;
             }
         }
+        
         return str;
     }
 }
