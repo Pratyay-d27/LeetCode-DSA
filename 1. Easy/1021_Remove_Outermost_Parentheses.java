@@ -13,7 +13,7 @@ class Solution {
                 str = str + ele;
                 count++;
             }
-            else // 
+            else // when closing b
             {
                 count--;
                 if(count != 0)
