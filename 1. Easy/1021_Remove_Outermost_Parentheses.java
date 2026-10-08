@@ -13,7 +13,7 @@ class Solution {
                 str = str + ele;
                 count++;
             }
-            else // when closing brac
+            else // when closing brack
             {
                 count--;
                 if(count != 0)
