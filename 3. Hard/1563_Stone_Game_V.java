@@ -1,4 +1,4 @@
-//
+// Dynamic programming solution
 
 class Solution {
     int prefixSum[];
