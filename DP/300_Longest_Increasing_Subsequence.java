@@ -11,7 +11,7 @@ class Solution {
         if(i>=nums.length)
         return 0;
 
-        //memoization check
+        //memoization check 
         if(p>-1 && t[i][p] != 0)
         return t[i][p];
 
