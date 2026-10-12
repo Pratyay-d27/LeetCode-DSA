@@ -1,5 +1,5 @@
 class Solution {
-    int MOD = 1000000007;
+    int MOD = 1000000007; //used for modul
     public int maxSum(List<Integer> nums, int k) {
         int count[] = new int[32];
         for(int ele: nums)
