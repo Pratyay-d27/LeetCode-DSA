@@ -15,6 +15,6 @@ class Solution {
             i++;
             j--;
         }
-        return (i == j)? (score + (nums[i]*nums[i])):score; //in case of odd number of elements add middle most 
+        return (i == j)? (score + (nums[i]*nums[i])):score; //in case of odd number of elements add middle most element
     }
 }
