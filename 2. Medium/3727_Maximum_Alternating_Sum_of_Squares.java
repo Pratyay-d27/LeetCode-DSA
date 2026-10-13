@@ -6,7 +6,7 @@ class Solution {
             nums[i] *= -1;
         }
         //now all converted to positive
-        Arrays.sort(nums);
+        Arrays.sort(nums); // sort the 
         int i = 0, j = nums.length-1;
         long score = 0;
         while(i<j)  // biggest at j and smallest at i
