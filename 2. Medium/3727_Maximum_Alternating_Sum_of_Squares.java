@@ -1,6 +1,6 @@
 class Solution {
     public long maxAlternatingSum(int[] nums) {
-        for(int i = 0; i<nums.length; i++) // making all 
+        for(int i = 0; i<nums.length; i++) // making all numbers 
         {
             if(nums[i] < 0)
             nums[i] *= -1;
