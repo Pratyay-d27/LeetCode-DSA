@@ -1,7 +1,7 @@
 /*
 LeetCode Link: https://leetcode.com/problems/boats-to-save-people/
 */ 
-// Greedy solution
+// Greedy solution 
 class Solution { 
     public int numRescueBoats(int[] people, int limit) {
         Arrays.sort(people); //sort array
