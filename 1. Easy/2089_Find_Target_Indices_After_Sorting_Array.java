@@ -1,4 +1,4 @@
-// Solution using sorti
+// Solution using sortin
 
 class Solution {
     public List<Integer> targetIndices(int[] nums, int target) {
