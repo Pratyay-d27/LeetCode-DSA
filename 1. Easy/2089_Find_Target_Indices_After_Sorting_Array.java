@@ -1,4 +1,4 @@
-// Solution using 
+// Solution using s
 
 class Solution {
     public List<Integer> targetIndices(int[] nums, int target) {
