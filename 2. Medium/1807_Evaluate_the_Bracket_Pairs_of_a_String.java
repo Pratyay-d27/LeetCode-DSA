@@ -1,6 +1,6 @@
 class Solution {
     public String evaluate(String s, List<List<String>> knowledge) {
-        HashMap<String, String> map = new HashMap<>(); // using hashm
+        HashMap<String, String> map = new HashMap<>(); // using hashma
         for(List<String> ele: knowledge)
         map.put(ele.get(0), ele.get(1));
         
