@@ -7,8 +7,8 @@ class Solution {
         String str = "";
         for(int i = 0; i<s.length();)
         {
-            char ch = s.charAt(i); // current character being scanned
-
+            char ch = s.charAt(i); // current character being scanned 
+ 
             if(ch != '(' && ch != ')')
             str += ch;
             else if(ch == '(')
