@@ -1,6 +1,6 @@
 class Solution {
     public String makeFancyString(String s) {
-        StringBuilder ans = new StringBuilder(); // using StringBuilder to 
+        StringBuilder ans = new StringBuilder(); // using StringBuilder to avoid 
         for(int i = 0; i<s.length(); i++)
         {
             char ele = s.charAt(i);
