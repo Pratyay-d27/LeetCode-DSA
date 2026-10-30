@@ -1,4 +1,4 @@
-// Greedy Solution 
+// Greedy Solution  
 
 class Solution { 
     public boolean asteroidsDestroyed(int mass, int[] asteroids) {
