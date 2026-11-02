@@ -37,4 +37,4 @@ class Solution {
     }
 }
 
-//Alternate Approac
+//Alternate Approach
