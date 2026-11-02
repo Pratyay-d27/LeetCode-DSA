@@ -39,4 +39,20 @@ class Solution {
 
 //Alternate Approach
 
+class Solution {
+    public int minMoves2(int[] nums) {
+        int n = nums.length;
+        Arrays.sort(nums);
+        int median = 0;
+        if(n % 2 == 0)
+        median = (nums[(n/2)-1] + nums[n/2])/2;
+        else 
+        median = nums[n/2];
 
+        int count = 0;
+        for(int ele: nums)
+        count += Math.abs(ele - median);
+
+        return count;
+    }
+}
