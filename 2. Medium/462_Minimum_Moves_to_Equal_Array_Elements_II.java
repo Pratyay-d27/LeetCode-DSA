@@ -37,7 +37,7 @@ class Solution {
     }
 }
 
-//Alternate Approach
+//Alternate Approach using median element
 
 class Solution {
     public int minMoves2(int[] nums) {
