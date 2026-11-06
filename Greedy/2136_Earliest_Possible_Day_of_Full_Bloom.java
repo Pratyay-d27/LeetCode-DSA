@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     public int earliestFullBloom(int[] plantTime, int[] growTime) {
         int n = plantTime.length;
         int arr[][] = new int[n][2];
