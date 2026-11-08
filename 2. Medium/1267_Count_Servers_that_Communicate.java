@@ -21,7 +21,7 @@ class Solution {
             }
         }
         
-        //next for column
+        //next for column 
         for(int i = 0; i<n; i++)
         {
             int count = 0;
