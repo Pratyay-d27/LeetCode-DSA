@@ -4,7 +4,7 @@ class Solution {
         boolean row[] = new boolean[m];
         boolean column[] = new boolean[n];
 
-        //first for row
+        //first for row 
         for(int i = 0; i<m; i++)
         {
             int count = 0;
