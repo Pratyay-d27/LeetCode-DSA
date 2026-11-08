@@ -38,7 +38,7 @@ class Solution {
             }
         }
 
-        int count = 0; // for final counting
+        int count = 0; // for final counting 
         for(int i = 0; i<m; i++)
         {
             for(int j = 0; j<n; j++)
