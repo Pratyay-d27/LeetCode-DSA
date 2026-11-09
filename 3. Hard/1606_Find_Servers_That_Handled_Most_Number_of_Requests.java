@@ -3,7 +3,7 @@ import java.util.*;
 class Solution {
     public List<Integer> busiestServers(int k, int[] arrival, int[] load) {
 
-        // using 
+        // using treeSet for storing 
         TreeSet<Integer> available = new TreeSet<>();
         for (int i = 0; i < k; i++) {
             available.add(i);
