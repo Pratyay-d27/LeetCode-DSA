@@ -1,5 +1,5 @@
 class Solution {
-    int dp[][] = new int[302][12];
+    int dp[][] = new int[302][12]; //
     public int minDifficulty(int[] jobDifficulty, int d) {
         if(d > jobDifficulty.length)
         return -1;
