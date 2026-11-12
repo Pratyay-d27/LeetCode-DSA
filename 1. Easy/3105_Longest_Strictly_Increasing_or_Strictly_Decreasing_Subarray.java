@@ -3,7 +3,7 @@ class Solution {
         int i = 0, j = 1, n = nums.length;
         int size = 1;
 
-        //base case 
+        //base case for
         if(n == 1)
         return size;
 
