@@ -2,7 +2,7 @@ class Solution {
     int dp[][] = new int[302][12]; // memoization dp array 
     public int minDifficulty(int[] jobDifficulty, int d) {
         if(d > jobDifficulty.length)
-        return -1;
+        return -1; 
         
         for(int ele[]: dp)
         Arrays.fill(ele, -1);
