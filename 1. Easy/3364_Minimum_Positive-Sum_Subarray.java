@@ -14,7 +14,7 @@ class Solution {
                 start++;
             }
         }
-        return min == Integer.MAX_VALUE?-1:min; // return min sum > 0 
+        return min == Integer.MAX_VALUE?-1:min; // return min sum > 0 else 
     }
     int sum(int i, int j, List<Integer> nums)
     {
