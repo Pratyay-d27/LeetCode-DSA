@@ -1,5 +1,5 @@
 class Solution {
-    int dp[] = new int[50002]; // memoization 
+    int dp[] = new int[50002]; // memoization 1D 
     public int jobScheduling(int[] startTime, int[] endTime, int[] profit) {
         Arrays.fill(dp, -1);
 
