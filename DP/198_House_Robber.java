@@ -13,3 +13,5 @@ class Solution {
         return t[nums.length];
     }
 }
+
+// Alternate Approach of take and skip
