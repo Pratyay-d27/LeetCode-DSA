@@ -14,4 +14,4 @@ class Solution {
     }
 }
 
-// Alternate Approach of take and skip with adjacent house taken or not taken 
+// Alternate Approach of take and skip with adjacent house taken or not taken condition 
