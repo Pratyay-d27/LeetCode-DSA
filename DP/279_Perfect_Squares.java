@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     int dp[] = new int[10002];
     public int numSquares(int n) {
         Arrays.fill(dp, -1);
