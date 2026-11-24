@@ -1,4 +1,4 @@
-// Brute 
+// Brute force 
 class Solution {
     public int maxLength(int[] nums) {
         int n = nums.length;
