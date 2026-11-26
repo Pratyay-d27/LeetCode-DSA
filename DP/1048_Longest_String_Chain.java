@@ -56,3 +56,6 @@ class Solution {
         return false;
     }
 }
+
+//Another Approach 
+
