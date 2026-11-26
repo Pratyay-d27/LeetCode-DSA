@@ -3,7 +3,7 @@
 class Solution {
     public boolean canAliceWin(int n) {
         boolean aliceWin = false;
-        //base case when 
+        //base case when alice
         if(n <= 9)
         return aliceWin;
 
