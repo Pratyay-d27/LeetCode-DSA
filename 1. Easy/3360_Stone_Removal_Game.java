@@ -6,7 +6,7 @@ class Solution {
         if(n <= 9)
         return false;
 
-        //
+        // rest of the 
         int alice = 10, bob = 9;
         int nalice = 0, nbob = 0;
         while(n != 0)
