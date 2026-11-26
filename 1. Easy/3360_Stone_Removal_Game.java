@@ -15,7 +15,7 @@ class Solution {
             if(n < alice)
             return false;
 
-            n = n - alice;
+            n -= alice;
             alice -= 2;
             nalice++;
             
