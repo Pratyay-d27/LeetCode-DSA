@@ -57,5 +57,64 @@ class Solution {
     }
 }
 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+    
 //Another Approach 
 
+class Solution {
+    int dp[][] = new int[1005][1005];
+    public int longestStrChain(String[] words) {
+        Arrays.sort(words, (a,b)->Integer.compare(a.length(), b.length()));
+        return solve(0, -1, words);  
+    } 
+
+    int solve(int i, int prev, String [] words)
+    {
+        if(i >= words.length)
+        return 0;
+
+        if(prev != -1 && dp[i][prev] != 0)
+        return dp[i][prev];
+
+        //take and skip logic
+        int take = 0, skip = 0;
+        //take
+        if(prev == -1 || check(i, prev, words))
+        take = solve(i+1, i, words) + 1;
+        //skip
+        skip = solve(i+1, prev, words);
+
+        if(prev != -1)
+        return dp[i][prev] = Math.max(take, skip);
+        return Math.max(take, skip);
+    }
+
+    boolean check(int k, int prev, String words[])
+    {
+        String b = words[k];
+        String a = words[prev];
+        //base case - length check
+        if(b.length() - a.length() != 1)
+        return false;
+
+        boolean power = false;
+        int i = 0, j = 0;
+        while(j<b.length() && i<a.length())
+        {
+            if(a.charAt(i) != b.charAt(j))
+            {
+                if(power == false)
+                {
+                    power = true;
+                    j++;
+                    continue;
+                }
+                else 
+                return false;
+            }
+            i++;
+            j++;
+        }
+        return true;
+    }
+}
