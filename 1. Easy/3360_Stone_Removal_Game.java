@@ -2,7 +2,6 @@
 
 class Solution {
     public boolean canAliceWin(int n) {
-        boolean aliceWin = false;
         //base case when alice can't even take first 
         if(n <= 9)
         return aliceWin;
