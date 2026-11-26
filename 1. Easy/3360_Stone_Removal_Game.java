@@ -1,4 +1,4 @@
-// Brute force approach
+// Brute force approach 
 class Solution {
     public boolean canAliceWin(int n) {
         boolean aliceWin = false;
