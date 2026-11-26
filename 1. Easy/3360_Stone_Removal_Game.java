@@ -1,4 +1,4 @@
-// 
+// Brute
 class Solution {
     public boolean canAliceWin(int n) {
         boolean aliceWin = false;
