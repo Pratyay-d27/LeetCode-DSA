@@ -22,7 +22,7 @@ class Solution {
             if(n < bob)
             return true;
             
-            n = n - bob;
+            n -= bob;
             bob -= 2;
             nbob++;
         }
